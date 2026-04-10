@@ -21,7 +21,5 @@ public class MathApp {
 
         System.out.println("The lowest vehicle price is " + lowestPrice);
 
-//        QUESTION 3: FIND THE
-
     }
 }
