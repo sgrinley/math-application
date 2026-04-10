@@ -17,6 +17,10 @@ public class MathApp {
         double carPrice = 25000;
         double truckPrice = 40000;
 
+        double lowestPrice = Math.min(carPrice, truckPrice);
+
+        System.out.println("The lowest vehicle price is " + lowestPrice);
+
 
 
     }
