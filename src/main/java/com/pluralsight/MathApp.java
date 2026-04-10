@@ -48,5 +48,16 @@ public class MathApp {
 
         System.out.printf("The distance between the two points is %.2f%n", distance);
 
+//      QUESTION 6: FIND ABSOLUTE VALUE
+
+        double negativeNumber = -3.8;
+
+        double absoluteValue = Math.abs(negativeNumber);
+
+        System.out.println("The absolute value is " + absoluteValue);
+
+
+
+
     }
 }
