@@ -13,6 +13,11 @@ public class MathApp {
 
         System.out.println("The highest salary is " + "$" + highestSalary);
 
+//      QUESTION 2: FIND THE LOWEST VEHICLE PRICE
+        double carPrice = 25000;
+        double truckPrice = 40000;
+
+
 
     }
 }
