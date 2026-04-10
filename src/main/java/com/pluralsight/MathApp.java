@@ -19,7 +19,15 @@ public class MathApp {
 
         double lowestPrice = Math.min(carPrice, truckPrice);
 
-        System.out.println("The lowest vehicle price is " + lowestPrice);
+        System.out.println("The lowest vehicle price is " + "$" + lowestPrice);
+
+//      QUESTION 3: FIND THE AREA OF A CIRCLE
+
+        double radius = 7.25;
+
+        double circleArea = Math.PI * Math.pow(radius, 2);
+
+        System.out.printf("The area of the circle is %.2f", circleArea);
 
     }
 }
