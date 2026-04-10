@@ -72,6 +72,17 @@ public class MathApp {
 
         System.out.println("There are " + totalMinutes + " minutes in 24 days");
 
+//      QUESTION 8: CALCULATE MILLISECONDS IN 24 DAYS
+
+        int secondsPerMinute = 60;
+        int millisecondsPerSecond = 1000;
+
+        long totalMilliseconds = (long) days * hoursPerDay * minutesPerHour * secondsPerMinute * millisecondsPerSecond;
+
+        System.out.println("There are " + totalMilliseconds + " milliseconds in 24 days");
+
+
+
 
     }
 }
