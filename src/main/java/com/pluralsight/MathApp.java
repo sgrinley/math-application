@@ -56,6 +56,13 @@ public class MathApp {
 
         System.out.println("The absolute value is " + absoluteValue);
 
+//      QUESTION 7: FIND RANDOM NUMBER BETWEEN 0 & 1
+
+        double randomNumber = Math.random();
+
+        System.out.printf("Random number: %.2f%n", randomNumber);
+
+
 
 
 
