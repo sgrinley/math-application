@@ -27,7 +27,15 @@ public class MathApp {
 
         double circleArea = Math.PI * Math.pow(radius, 2);
 
-        System.out.printf("The area of the circle is %.2f", circleArea);
+        System.out.printf("The area of the circle is %.2f ", circleArea);
+
+//      QUESTION 4: FIND THE SQUARE ROOT
+
+        double number = 5.0;
+
+        double squareRoot = Math.sqrt(number);
+
+        System.out.println("The square root of " + number + " is %.2f " + squareRoot);
 
     }
 }
